@@ -12,7 +12,7 @@ public class Productcontrollers {
     }
     @GetMapping("{id}")
     public String getProductById(@PathVariable("id") int id){
-                return "here is ur product"+id;
+                return "rgggggggggggggroduct"+id;
     }
 
     @DeleteMapping("{id}")
@@ -22,7 +22,7 @@ public class Productcontrollers {
 
     @PostMapping
     public String createProduct(){
-          return "here is a product";
+          return "fdffvdddgbbbbbbbbbbbbbb";
     }
 
     @PutMapping
