@@ -9,6 +9,7 @@ import lombok.Setter;
 
 public class GenericProductDto {
     private String title;
+
     private String description;
     private double price;
     private String image;
